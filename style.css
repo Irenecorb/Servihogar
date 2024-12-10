@@ -132,3 +132,14 @@ th {
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
   }
+
+
+  .btn-eliminar{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: white;
+  }
