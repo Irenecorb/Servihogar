@@ -32,3 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = 'servicios.html';
     }
 });
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0a8d06a7ff542d7a4e87987b7a3a0b99c97adece

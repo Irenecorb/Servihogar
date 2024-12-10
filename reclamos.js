@@ -21,4 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
         // Reiniciar el formulario
         form.reset();
     });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 0a8d06a7ff542d7a4e87987b7a3a0b99c97adece

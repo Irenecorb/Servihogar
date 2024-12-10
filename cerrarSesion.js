@@ -48,4 +48,8 @@ function cargarServicios() {
 }
 
 // Llama a la función para cargar los servicios al cargar la página
+<<<<<<< HEAD
 document.addEventListener('DOMContentLoaded', cargarServicios);
+=======
+document.addEventListener('DOMContentLoaded', cargarServicios);
+>>>>>>> 0a8d06a7ff542d7a4e87987b7a3a0b99c97adece

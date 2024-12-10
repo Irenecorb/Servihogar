@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
     background-image: radial-gradient(#cad8e6,#78a3c5);
+=======
+    background-image: radial-gradient(rgb(178,216,216),rgb(0,76,76));
+>>>>>>> 0a8d06a7ff542d7a4e87987b7a3a0b99c97adece
     min-height : 100vh; 
     padding: 0;
 }
@@ -76,8 +80,12 @@ th {
 }
 
 .centro{
+<<<<<<< HEAD
     padding-top: 5px;
     background-color: #FFF7EB;
+=======
+    background-color: rgb(236,232,234);
+>>>>>>> 0a8d06a7ff542d7a4e87987b7a3a0b99c97adece
 }
 
 /*Servicios*/
@@ -98,13 +106,17 @@ th {
     /* Mueve la tarjeta hacia arriba */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     /* Añade sombra a la tarjeta */
+<<<<<<< HEAD
     color: #78a3c5;
+=======
+>>>>>>> 0a8d06a7ff542d7a4e87987b7a3a0b99c97adece
 }
 
 /* Efecto de hover en el icono */
 .servicio-card:hover i {
     transform: scale(1.2);
     /* Aumenta el tamaño del icono */
+<<<<<<< HEAD
     color: #78a3c5;
     /* Cambia el color del icono al pasar el cursor */
 }
@@ -132,3 +144,8 @@ th {
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
   }
+=======
+    color: #007bff;
+    /* Cambia el color del icono al pasar el cursor */
+}
+>>>>>>> 0a8d06a7ff542d7a4e87987b7a3a0b99c97adece
