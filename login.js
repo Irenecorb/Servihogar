@@ -13,11 +13,22 @@ document.getElementById('form').addEventListener('submit', function (event) {
 
     //validan las credenciales
     if (email === validEmail && password === validPassword) {
+        // Guardar el estado del usuario en localStorage
+        localStorage.setItem('isLoggedIn', 'true');
+        localStorage.setItem('userEmail', email); // Opcional, para identificar al usuario
+
         // Si las credenciales coinciden, redirigir a home.html
         window.location.href = 'servicios.html';
-        alert('Login correcto');
     } else {
-    alert('Usuario o contraseña incorrectos');
+        alert('Usuario o contraseña incorrectos');
     } 
 });
 
+// Verificar si el usuario ya está logueado
+document.addEventListener('DOMContentLoaded', function () {
+    const isLoggedIn = localStorage.getItem('isLoggedIn');
+    if (isLoggedIn === 'true') {
+        // Redirigir automáticamente si ya está logueado
+        window.location.href = 'servicios.html';
+    }
+});
